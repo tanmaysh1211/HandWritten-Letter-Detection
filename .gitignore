@@ -1,0 +1,42 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Dataset and downloaded data
+data/
+datasets/
+
+# Trained models and model checkpoints
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.h5
+*.pkl
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# IDE settings
+.vscode/
+.idea/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+desktop.ini
